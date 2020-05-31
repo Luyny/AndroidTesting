@@ -3,8 +3,8 @@
 </b>
 
 Já foi feito até o momento:
- - Main Activity com um FrameLayout
- - BottomNavigation para alterar as telas usando fragments
- - Implementação de uma ListView usando o BaseAdapter
- - Um formulário para adicionar dados na lista
- - Opção de utilizar Night Mode ou Light mode (quem é que usa tema claro?)
+ - Main Activity com um FrameLayout;
+ - BottomNavigation para alterar entre as telas usando fragments;
+ - Implementação de uma ListView usando o BaseAdapter;
+ - Um formulário para adicionar dados na lista;
+ - Opção de utilizar Night Mode ou Light mode (quem é que usa tema claro?).
