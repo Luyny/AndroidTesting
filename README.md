@@ -1,5 +1,6 @@
-Este app não tem nenhuma funcionalidade real.
-Seu propósito é unicamente para estudo.
+<b>Este app não tem nenhuma funcionalidade real.
+<br>Seu propósito é unicamente para estudo.
+</b>
 
 Já foi feito até o momento:
  - Main Activity com um FrameLayout
