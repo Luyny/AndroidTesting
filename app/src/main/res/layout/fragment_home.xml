@@ -3,14 +3,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#f0f0f0"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorBackGround"
     tools:context=".HomeFragment">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="10dp"
-        android:layout_marginTop="20dp">
+        android:layout_marginTop="20dp"
+        app:cardBackgroundColor="@color/colorCard"
+        >
 
         <LinearLayout
 
@@ -25,13 +28,15 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:text="Adicione seus jogos aqui"
-                android:textSize="18dp" />
+                android:textSize="18dp"
+                android:textColor="@color/colorText"/>
 
             <EditText
                 android:id="@+id/edit_game_name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Nome do jogo" />
+                android:hint="Nome do jogo"
+                android:textColor="@color/colorText"/>
 
             <EditText
                 android:id="@+id/edit_game_launch"
@@ -49,7 +54,10 @@
                 android:id="@+id/btn_game_confirm"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Adicionar a lista" />
+                android:text="Adicionar a lista"
+                android:textColor="@color/colorTextAlt"
+
+                android:background="@color/colorButton"/>
 
 
         </LinearLayout>

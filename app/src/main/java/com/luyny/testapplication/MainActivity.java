@@ -2,6 +2,7 @@ package com.luyny.testapplication;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
@@ -22,6 +23,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         gamesArrayList = new ArrayList<Game>();
+
+        gamesArrayList.add(new Game("CS: Global Offensive","2012","FPS"));
+        gamesArrayList.add(new Game("GTA V","2013","Ação/Aventura"));
+        gamesArrayList.add(new Game("Red Dead Redemption 2","2018","Ação/Aventura"));
 
         bottomNavigationView = findViewById(R.id.bottom_navigation_view);
         bottomNavigationView.setSelectedItemId(R.id.home);

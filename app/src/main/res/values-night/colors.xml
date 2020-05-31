@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#c5c5c5</color>
+    <color name="colorPrimary">#222222</color>
     <color name="colorPrimaryDark">#808080</color>
     <color name="colorAccent">#25CFBE</color>
 
     <color name="colorBlack">#000</color>
     <color name="colorWhite">#fff</color>
-    <color name="colorText">#707070</color>
+    <color name="colorText">#f0f0f0</color>
     <color name="colorTextAlt">#FFFFFF</color>
-    <color name="colorBackGround">#f0f0f0</color>
-    <color name="colorButton">#25CFBE</color>
-    <color name="colorCard">#fff</color>
-    <color name="colorNavigationSelected">#707070</color>
+    <color name="colorBackGround">#1C1C1C</color>
+    <color name="colorButton">#4E4E4E</color>
+    <color name="colorCard">#333333</color>
+    <color name="colorNavigationSelected">#25CFBE</color>
     <color name="colorNavigationNotSelected">#f0f0f0</color>
 
 </resources>
